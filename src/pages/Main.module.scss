@@ -1,0 +1,134 @@
+.flex {
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    img {
+        margin-right: 50px;
+        border-radius: 60%;
+    }
+    div {
+        margin-bottom: 20px;
+    }
+    .textt {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
+.btnquit {
+    border: solid black 1px;
+}
+.main {
+    color: #c5c6c7;
+
+    background-image: url("https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFydCUyMGdhbGxlcnl8ZW58MHx8MHx8&w=1000&q=80");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text1 {
+        text-align: center;
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .text2,
+    .pp {
+        text-align: center;
+        color: rgb(248, 245, 245);
+        padding-top: 20px;
+    }
+
+    .slider1 {
+        max-width: 100%;
+
+        img {
+            max-width: 350px;
+            display: flex;
+            margin-left: 350px;
+            pointer-events: none;
+        }
+    }
+
+    .slider2 {
+        max-width: 100%;
+
+        img {
+            max-width: 350px;
+            display: flex;
+            margin-left: 350px;
+            pointer-events: none;
+        }
+    }
+    
+    .sliderMain{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.textdesc {
+    color: #23252a;
+    text-align: center;
+
+    .out {
+        color: #23252a;
+    }
+}
+
+.out {
+    color: #23252a;
+}
+
+.photo1 {
+    img {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .slider1 {
+        max-width: 100%;
+
+        img {
+            margin-left: 100px;
+            max-width: 150px;
+        }
+    }
+
+    .slider2 {
+        max-width: 100%;
+
+        img {
+            margin-left: 100px;
+            max-width: 150px;
+        }
+    }
+}
+
+.must_text {
+    display: flex;
+    justify-content: center;
+}
+
+.btnexit button {
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #23252a;
+    color: white;
+
+    button.btnexit :active {
+        background-color: white;
+        color: #000000;
+    }
+}
+
+.btnexit button :hover {
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    transform: scale(1.05);
+}

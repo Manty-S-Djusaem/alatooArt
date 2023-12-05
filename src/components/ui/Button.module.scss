@@ -1,0 +1,27 @@
+.btnquit{
+    color: #66fcf1;
+}
+
+button.btnquit {
+    margin-top: 10px;
+    width: 170px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: opacity 124ms linear, transform 124ms linear;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
+}
+
+button.btnquit :active {
+    background-color: white;
+    color: #000000;
+}

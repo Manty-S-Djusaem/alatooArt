@@ -1,0 +1,81 @@
+.photo {
+    img {
+        width: 150px;
+        height: 20==150px;
+    }
+}
+
+.maincards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardbody {
+    display: flex;
+    width: 600px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    div {
+        margin-bottom: 20px;
+    }
+
+    button.btncart {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: #000000;
+        color: white;
+        cursor: pointer;
+        transition: opacity 124ms linear, transform 124ms linear;
+        margin-left: 7px;
+
+        &:hover{
+            background-color: white;
+            color: #000000;
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+    }
+
+    button.btncart :active {
+        background-color: white;
+        color: #000000;
+    }
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(105, 105, 105, 1);
+    width: 100%;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(105, 105, 105, 1);
+    width: 100%;
+    margin-right: 40px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+}
+
+.numItems {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    // background-color: #000000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+}
