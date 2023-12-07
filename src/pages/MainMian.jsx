@@ -69,14 +69,14 @@ const Main = (props) => {
                     <p className={module.text2}>Ничё ещё нет</p>
 
                     <p className={module.pp}></p>
-                        <Slider {...settings}>
+                        {/* <Slider {...settings}>
                             <div className={module.slider1}>
                                 <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2601/content_collector_portfolio_page-3bdc29db3cf5c9e27186b38a9c86e2e4a81870fce77ec4a456a47949102db6bf.jpg" alt="Image 1" />
                             </div>
                             <div className={module.slider2}>
                                 <img src="https://i.pinimg.com/564x/2c/5a/dd/2c5adda9ecff0b755eaa1c4eb1d0b824.jpg" alt="Image 2" />
                             </div>
-                        </Slider>
+                        </Slider> */}
                 </div>
 
             )
@@ -99,14 +99,14 @@ const Main = (props) => {
 
                 <p className={module.pp}></p>
 
-                <Slider {...settings}>
+                {/* <Slider {...settings}>
                     <div className={module.slider1}>
                         <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2601/content_collector_portfolio_page-3bdc29db3cf5c9e27186b38a9c86e2e4a81870fce77ec4a456a47949102db6bf.jpg" alt="Image 1" />
                     </div>
                     <div className={module.slider2}>
                         <img src="https://i.pinimg.com/564x/2c/5a/dd/2c5adda9ecff0b755eaa1c4eb1d0b824.jpg" alt="Image 2" />
                     </div>
-                </Slider>
+                </Slider> */}
             </div>
         )
     }
