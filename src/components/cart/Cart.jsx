@@ -92,4 +92,4 @@ const removeItem = (index) => {
   );
 };
 
-export default Cart;
+export default Cart;  
