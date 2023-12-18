@@ -66,8 +66,8 @@ const Main = (props) => {
                 <div className={module.main}>
                     <h1 className={module.text1}>AlaToo Art</h1>
 
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px', border: '2px solid #000000' }}>
-                        <div style={{ width: '48%', padding: '10px', borderRight: '2px solid #000000', margin: '-2px 0 -2px -2px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
+                        <div style={{ width: '48%', border: '2px solid #000000', padding: '10px' }}>
                             <h4 className={module.text2}>AlaToo Art – это современный магазин товаров для творчества и хобби в Бишкеке.
                                 <br />
                                 <br />
@@ -82,7 +82,7 @@ const Main = (props) => {
                                 Мы стараемся подбирать товары с учетом интересов клиентов различного уровня, как профессионалов, так новичков и любителей.
                             </h4>
                         </div>
-                        <div style={{ width: '48%', padding: '10px', margin: '-2px -2px -2px 0' }}>
+                        <div style={{ width: '48%', border: '2px solid #000000', padding: '10px' }}>
                             <h4>
                                 Неоспоримым достоинством "AlaToo Art" является оптимальное соотношение цены и качества.
                                 Мы сотрудничаем с проверенными, зарекомендовавшими себя производителями и торговыми марками.
@@ -117,8 +117,8 @@ const Main = (props) => {
             <div className={module.main}>
                 <h1 className={module.text1}>AlaToo Art</h1>
 
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px', border: '2px solid #000000' }}>
-                    <div style={{ width: '48%', padding: '10px', borderRight: '2px solid #000000', margin: '-2px 0 -2px -2px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
+                    <div style={{ width: '48%', border: '2px solid #000000', padding: '10px' }}>
                         <h4 className={module.text2}>AlaToo Art – это современный магазин товаров для творчества и хобби в Бишкеке.
                             <br />
                             <br />
@@ -133,7 +133,7 @@ const Main = (props) => {
                             Мы стараемся подбирать товары с учетом интересов клиентов различного уровня, как профессионалов, так новичков и любителей.
                         </h4>
                     </div>
-                    <div style={{ width: '48%', padding: '10px', margin: '-2px -2px -2px 0' }}>
+                    <div style={{ width: '48%', border: '2px solid #000000', padding: '10px' }}>
                         <h4>
                             Неоспоримым достоинством "AlaToo Art" является оптимальное соотношение цены и качества.
                             Мы сотрудничаем с проверенными, зарекомендовавшими себя производителями и торговыми марками.
