@@ -66,8 +66,8 @@ const Main = (props) => {
                 <div className={module.main}>
                     <h1 className={module.text1}>AlaToo Art</h1>
 
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
-                        <div style={{ width: '48%' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px', border: '2px solid #000000' }}>
+                        <div style={{ width: '48%', padding: '10px', borderRight: '2px solid #000000', margin: '-2px 0 -2px -2px' }}>
                             <h4 className={module.text2}>AlaToo Art – это современный магазин товаров для творчества и хобби в Бишкеке.
                                 <br />
                                 <br />
@@ -82,7 +82,7 @@ const Main = (props) => {
                                 Мы стараемся подбирать товары с учетом интересов клиентов различного уровня, как профессионалов, так новичков и любителей.
                             </h4>
                         </div>
-                        <div style={{ width: '48%' }}>
+                        <div style={{ width: '48%', padding: '10px', margin: '-2px -2px -2px 0' }}>
                             <h4>
                                 Неоспоримым достоинством "AlaToo Art" является оптимальное соотношение цены и качества.
                                 Мы сотрудничаем с проверенными, зарекомендовавшими себя производителями и торговыми марками.
@@ -99,20 +99,6 @@ const Main = (props) => {
                             </h4>
                         </div>
                     </div>
-
-
-
-
-
-                    <p className={module.pp}></p>
-                    {/* <Slider {...settings}>
-                            <div className={module.slider1}>
-                                <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2601/content_collector_portfolio_page-3bdc29db3cf5c9e27186b38a9c86e2e4a81870fce77ec4a456a47949102db6bf.jpg" alt="Image 1" />
-                            </div>
-                            <div className={module.slider2}>
-                                <img src="https://i.pinimg.com/564x/2c/5a/dd/2c5adda9ecff0b755eaa1c4eb1d0b824.jpg" alt="Image 2" />
-                            </div>
-                        </Slider> */}
                 </div>
 
             )
@@ -129,20 +115,41 @@ const Main = (props) => {
     } else {
         return (
             <div className={module.main}>
-                <h1 className={module.text1}>Главная</h1>
+                <h1 className={module.text1}>AlaToo Art</h1>
 
-                <p className={module.text2}>Ничё ещё нет</p>
-
-                <p className={module.pp}></p>
-
-                {/* <Slider {...settings}>
-                    <div className={module.slider1}>
-                        <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2601/content_collector_portfolio_page-3bdc29db3cf5c9e27186b38a9c86e2e4a81870fce77ec4a456a47949102db6bf.jpg" alt="Image 1" />
+                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px', border: '2px solid #000000' }}>
+                    <div style={{ width: '48%', padding: '10px', borderRight: '2px solid #000000', margin: '-2px 0 -2px -2px' }}>
+                        <h4 className={module.text2}>AlaToo Art – это современный магазин товаров для творчества и хобби в Бишкеке.
+                            <br />
+                            <br />
+                            Мы представляем широкий выбор товаров для самых разнообразных видов хобби:
+                            <br />
+                            скрапбукинг, декупаж, пэчворк, рисование, конструирование, детское творчество, вязание, шитье и многое другое.
+                            <br />
+                            <br />
+                            Ассортимент магазина постоянно расширяется, а в продажу регулярно поступают новинки от лучших брендов.
+                            <br />
+                            <br />
+                            Мы стараемся подбирать товары с учетом интересов клиентов различного уровня, как профессионалов, так новичков и любителей.
+                        </h4>
                     </div>
-                    <div className={module.slider2}>
-                        <img src="https://i.pinimg.com/564x/2c/5a/dd/2c5adda9ecff0b755eaa1c4eb1d0b824.jpg" alt="Image 2" />
+                    <div style={{ width: '48%', padding: '10px', margin: '-2px -2px -2px 0' }}>
+                        <h4>
+                            Неоспоримым достоинством "AlaToo Art" является оптимальное соотношение цены и качества.
+                            Мы сотрудничаем с проверенными, зарекомендовавшими себя производителями и торговыми марками.
+                            Заботясь о наших клиентах, мы стараемся сделать все, чтобы процесс выбора товара был максимально простым и удобным:
+                        </h4>
+                        <br />
+                        <h4>
+                            Магазин AlaToo Art работает по принципу самообслуживания, весь товар можно посмотреть и потрогать,
+                            а в случае, если у вас возникнут вопросы, на них всегда с радостью ответят наши квалифицированные консультанты.
+                        </h4>
+                        <br />
+                        <h4>
+                            Ознакомиться со всем нашим ассортиментом и сделать заказ, вы можете не выходя из дома через наш интернет-магазин.
+                        </h4>
                     </div>
-                </Slider> */}
+                </div>
             </div>
         )
     }
